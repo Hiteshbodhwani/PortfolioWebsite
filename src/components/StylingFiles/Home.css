@@ -1,0 +1,72 @@
+.home-section {
+    height: 100vh;
+    background-color: #2d1e1e; /* Warm Espresso */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home-content h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .home-content h1 span {
+    color: #ffcc99;
+  }
+  
+  .home-content h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #f5f5f5;
+  }
+  
+  .highlight-skills {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  
+  .highlight-skills li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #e0e0e0;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    background-color: #ffcc99;
+    color: #2d1e1e;
+    padding: 0.8rem 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fcbf85;
+  }
+  
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid #ffcc99;
+    color: #ffcc99;
+  }
+  
+  .btn-outline:hover {
+    background-color: #ffcc99;
+    color: #2d1e1e;
+  }
+  

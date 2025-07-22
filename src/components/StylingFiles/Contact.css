@@ -1,0 +1,23 @@
+.contact-details {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .contact-details a {
+    color:#2d1e1e;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-message {
+    margin-bottom: 1.5rem;
+    color: #bdbdbd;
+    font-style: italic;
+    font-size: 0.95rem;
+  }
+  
