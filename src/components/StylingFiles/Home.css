@@ -69,4 +69,27 @@
     background-color: #ffcc99;
     color: #2d1e1e;
   }
+   @media (max-width: 768px) {
+    .home-section {
+      padding: 1.5rem 1rem;
+      height: auto;
+    }
+  
+    .home-content h1 {
+      font-size: 2.2rem;
+    }
+  
+    .home-content h2 {
+      font-size: 1.25rem;
+    }
+  
+    .highlight-skills li {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      padding: 0.6rem 1.2rem;
+      font-size: 0.95rem;
+    }
+  }
   
