@@ -1,20 +1,30 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './StylingFiles/Navbar.css';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
-      <div className="nav-logo">HITESH.DEV</div>
+      <Link to="/" className="nav-logo">HITESH.DEV</Link>
 
-      <ul className="nav-menu">
-        <li><NavLink to="/" end>Home</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/projects">Projects</NavLink></li>
-        <li><NavLink to="/experience">Experience</NavLink></li>
-        
-        <li><NavLink to="/contact">Contact</NavLink></li>
-      </ul>
+      <div className={`nav-menu ${menuOpen ? 'active' : ''}`}>
+        <li><Link to="/" onClick={() => setMenuOpen(false)}>Home</Link></li>
+        <li><Link to="/about" onClick={() => setMenuOpen(false)}>About</Link></li>
+        <li><Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link></li>
+        <li><Link to="/experience" onClick={() => setMenuOpen(false)}>Experience</Link></li>
+        <li><Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
+      </div>
+
+      <div
+        className={`hamburger ${menuOpen ? 'open' : ''}`}
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   );
 };
