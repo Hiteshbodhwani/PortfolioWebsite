@@ -1,23 +1,60 @@
-.contact-details {
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #fef9f4;
+    color: #2d1e1e;
+    text-align: center;
+  }
+  
+  .contact-section h1 {
+    font-size: 2.4rem;
     margin-bottom: 2rem;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .contact-details {
     font-size: 1.1rem;
-    line-height: 1.8;
+    line-height: 2;
+    margin-bottom: 2rem;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .contact-details p {
+    margin: 0.5rem 0;
   }
   
   .contact-details a {
-    color:#2d1e1e;
+    color: #2d1e1e;
     text-decoration: none;
     font-weight: 600;
+    transition: color 0.3s ease;
   }
   
   .contact-details a:hover {
     text-decoration: underline;
+    color: #ffcc99;
   }
   
+  
   .form-message {
-    margin-bottom: 1.5rem;
-    color: #bdbdbd;
+    margin-top: 1.5rem;
+    color: #8a8a8a;
     font-style: italic;
     font-size: 0.95rem;
   }
+ 
+  @media screen and (max-width: 480px) {
+    .contact-section {
+      padding: 3rem 1rem;
+    }
+  
+    .contact-section h1 {
+      font-size: 2rem;
+    }
+  
+    .contact-details {
+      font-size: 1rem;
+    }
+  }
+  
   
