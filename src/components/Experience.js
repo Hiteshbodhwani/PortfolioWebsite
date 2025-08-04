@@ -3,6 +3,15 @@ import './StylingFiles/Experience.css';
 
 const experiences = [
   {
+    role: 'FullTime Frontend  Intern',
+    company: 'PharmyQuick,Kota',
+    duration: 'March 2025 – July 2025',
+    description: [
+      'Built and optimized reusable React components to enhance UI performance.',
+      'Enhanced UI/UX and improved frontend performance.',
+    ],
+  },
+  {
     role: 'Frontend Web Development Intern',
     company: 'Grras Solutions Pvt. Ltd., Jaipur',
     duration: 'July 2024 – August 2024',
@@ -14,7 +23,7 @@ const experiences = [
   {
     role: 'MERN Stack Certification (Project Experience)',
     company: 'Apna College, Kota',
-    duration: 'January 2025 – June 2025',
+    duration: 'January 2024 – June 2024',
     description: [
       'Developed full-stack projects using React, Node.js, Express, and MongoDB.',
       'Implemented user authentication, REST APIs, and CRUD operations.',
